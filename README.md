@@ -15,3 +15,8 @@ Python 3.x Jupyter Notebook PyTorch
 Also used CUDA framework
 
 Dataset: MNIST
+
+The following references has helped me to understand the problem set better and to use pyTorch library to accomplish the tasks.
+1. https://github.com/pytorch/examples/tree/95d5fddfb578674e01802f1db1820d8ac1015f67/mnist
+2. https://github.com/SarojArchana/CPSC-8430-Deep-Learning/tree/main
+3. https://github.com/rein5/cpsc8430-deep-learning/tree/master
