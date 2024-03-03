@@ -41,6 +41,12 @@ testing_features = data_folder + '/ta_review_data/feat/'
 test_id_file = data_folder + '/ta_review_data/id.txt'
 
 
+# preferred pytorch device
+device = "cuda" if torch.cuda.is_available() else "cpu"
+print("Using " + device + " device") 
+#device = "cpu"
+
+
 #model parameters
 max_caption_words = 20
 input_steps = 80
@@ -48,11 +54,6 @@ output_steps = max_caption_words
 feature_size = 4096
 hidden_size = 640
 embedding_size = 512
-
-# preferred pytorch device
-device = "cuda" if torch.cuda.is_available() else "cpu"
-print("Using " + device + " device") 
-#device = "cpu"
 
 #caption preprocessing to get rid of unnecessary characters. 
 def caption_preprocess(caption):
