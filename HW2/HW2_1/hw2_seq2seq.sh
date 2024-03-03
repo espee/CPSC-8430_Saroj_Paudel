@@ -1,1 +1,1 @@
-python model_seq2seq.py MLDS_hw2_1_data output.txt
+python model_seq2seq.py $1 $2
