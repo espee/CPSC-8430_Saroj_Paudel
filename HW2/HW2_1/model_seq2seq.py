@@ -30,15 +30,15 @@ output_file = sys.argv[2]
 #    DATA FOLDERS  : Please make changes here for the TA review data # 
 
 # training_labels = data_folder + '/training_label.json'
-testing_labels = data_folder + '/testing_label.json'
+#testing_labels = data_folder + '/testing_label.json'
 # training_features = data_folder+'/training_data/feat/'
-testing_features = data_folder + '/testing_data/feat/'
+#testing_features = data_folder + '/testing_data/feat/'
 
-#testing_features = data_folder + '/ta_review_data/feat/'
+testing_features = data_folder + '/ta_review_data/feat/'
  
 #model evaluation, List of filenames of video input .avi
-test_id_file = data_folder + '/testing_data/id.txt'
-#test_id_file = data_folder + '/ta_review_data/id.txt'
+#test_id_file = data_folder + '/testing_data/id.txt'
+test_id_file = data_folder + '/ta_review_data/id.txt'
 
 
 #model parameters
